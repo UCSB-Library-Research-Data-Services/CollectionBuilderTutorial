@@ -14,16 +14,19 @@
     "href": "index.html#prerequisites",
     "title": "Workshop: Building a Digital Exhibit",
     "section": "Prerequisites",
-    "text": "Prerequisites\nTo follow along with this tutorial, you will need:\n\nAccess to your UCSB Google account to use Google Sheets.\nA GitHub account to manage your CollectionBuilder project.\n\n\n\n\n\n\n\nWarning\n\n\n\nIf you don’t have a GitHub account, follow the instructions for GitHub sign-up with your UCSB account or the",
+    "text": "Prerequisites\nTo follow along with this tutorial, you will need:\n\nAccess to your UCSB Google account to use Google Sheets.\nA GitHub account to manage your CollectionBuilder project.\n\n\n\n\n\n\n\nWarning\n\n\n\nIf you don’t have a GitHub account, go to GitHub’s Sign-Up Page and create one using yout UCSB or any Google account. It’s free and only takes a few minutes!",
     "crumbs": [
       "Workshop: Building a Digital Exhibit"
     ]
   },
   {
-    "objectID": "github_signup.html",
-    "href": "github_signup.html",
-    "title": "Digital History Skills",
-    "section": "",
-    "text": "Return"
+    "objectID": "index.html#step-1-download-the-images",
+    "href": "index.html#step-1-download-the-images",
+    "title": "Workshop: Building a Digital Exhibit",
+    "section": "Step 1: Download the images",
+    "text": "Step 1: Download the images\nTo get started, download the images for this tutorial from postcards.zip. Unzip the file and save the images to a folder on your computer where you can easily access them later.",
+    "crumbs": [
+      "Workshop: Building a Digital Exhibit"
+    ]
   }
 ]
