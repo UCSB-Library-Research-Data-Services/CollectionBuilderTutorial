@@ -164,6 +164,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#step-5-upload-your-media-files-to-github" id="toc-step-5-upload-your-media-files-to-github" class="nav-link" data-scroll-target="#step-5-upload-your-media-files-to-github">Step 5: Upload your media files to GitHub</a></li>
   <li><a href="#step-6-upload-your-metadata-csv-file-to-_data-folder" id="toc-step-6-upload-your-metadata-csv-file-to-_data-folder" class="nav-link" data-scroll-target="#step-6-upload-your-metadata-csv-file-to-_data-folder">Step 6: Upload your metadata CSV file to <code>_data</code> folder</a></li>
   <li><a href="#step-7-configure-collectionbuilder" id="toc-step-7-configure-collectionbuilder" class="nav-link" data-scroll-target="#step-7-configure-collectionbuilder">Step 7: Configure CollectionBuilder</a></li>
+  <li><a href="#step-8-publish-your-exhibit" id="toc-step-8-publish-your-exhibit" class="nav-link" data-scroll-target="#step-8-publish-your-exhibit">Step 8: Publish your exhibit</a></li>
+  <li><a href="#step-9-customize-your-exhibit" id="toc-step-9-customize-your-exhibit" class="nav-link" data-scroll-target="#step-9-customize-your-exhibit">Step 9: Customize your exhibit</a></li>
   </ul>
 </nav>
 </nav>
@@ -502,6 +504,58 @@ Save your metadata
 <span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="fu">metadata</span><span class="kw">:</span><span class="at"> metadata</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
 <li>Stage, commit, and push your changes to GitHub to update the repository.</li>
+</ul>
+</section>
+<section id="step-8-publish-your-exhibit" class="level2">
+<h2 class="anchored" data-anchor-id="step-8-publish-your-exhibit">Step 8: Publish your exhibit</h2>
+<ul>
+<li>Go to the “Settings” tab of your repository and scroll down to the “GitHub Pages” section. Under “Source”, select the <code>main</code> branch and click “Save”:</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="_static/githubPages.png" class="lightbox" data-gallery="quarto-lightbox-gallery-16" title="GitHub Pages settings"><img src="_static/githubPages.png" class="img-fluid figure-img" width="600" alt="GitHub Pages settings"></a></p>
+<figcaption>GitHub Pages settings</figcaption>
+</figure>
+</div>
+<ul>
+<li>After a few moments, your exhibit will be published and you can access it at the URL provided in the “GitHub Pages” section.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="_static/deploying.png" class="lightbox" data-gallery="quarto-lightbox-gallery-17" title="Deploying exhibit"><img src="_static/deploying.png" class="img-fluid figure-img" width="400" alt="Deploying exhibit"></a></p>
+<figcaption>Deploying exhibit</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="_static/exhibitURL.png" class="lightbox" data-gallery="quarto-lightbox-gallery-18" title="Exhibit URL"><img src="_static/exhibitURL.png" class="img-fluid figure-img" width="400" alt="Exhibit URL"></a></p>
+<figcaption>Exhibit URL</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="_static/exhibitHomepage.png" class="lightbox" data-gallery="quarto-lightbox-gallery-19" title="Exhibit homepage"><img src="_static/exhibitHomepage.png" class="img-fluid figure-img" width="600" alt="Exhibit homepage"></a></p>
+<figcaption>Exhibit homepage</figcaption>
+</figure>
+</div>
+<p>Congratulations! You have successfully published your digital exhibit using CollectionBuilder. Now, it’s time for some customization.</p>
+</section>
+<section id="step-9-customize-your-exhibit" class="level2">
+<h2 class="anchored" data-anchor-id="step-9-customize-your-exhibit">Step 9: Customize your exhibit</h2>
+<ul>
+<li>Most of the customization options for CollectionBuilder are available in <code>_data/theme.yml</code> file. Let’s change some of the default settings to make our exhibit more personalized.</li>
+</ul>
+<div class="sourceCode" id="cb2"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">##########</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># HOME PAGE</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># featured image is used in home page banner and in meta markup to represent the collection</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co"># use either an objectid (from an item in this collect), a relative location of an image in this repo (ex. /assets/img/feature.jpg), or a full url to an image elsewhere</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="fu">featured-image</span><span class="kw">:</span><span class="at"> post_02</span><span class="co"> # </span><span class="al">WARNING</span><span class="co">: use the objectid, not the filename for this field</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Select a theme from https://bootswatch.com/ and add the name of the theme here. The default is "flatly".</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="fu">bootswatch</span><span class="kw">:</span><span class="at"> spacelab</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>More complex customizations, such as changing the layout of the item pages or adding new features, will require editing the HTML and CSS files in the repository. But for now, you can explore the various options available in the <code>_data/theme.yml</code> file to further customize the look and feel of your exhibit.</li>
 </ul>
 
 

@@ -88,5 +88,25 @@
     "crumbs": [
       "Workshop: Building a Digital Exhibit"
     ]
+  },
+  {
+    "objectID": "index.html#step-8-publish-your-exhibit",
+    "href": "index.html#step-8-publish-your-exhibit",
+    "title": "Workshop: Building a Digital Exhibit",
+    "section": "Step 8: Publish your exhibit",
+    "text": "Step 8: Publish your exhibit\n\nGo to the “Settings” tab of your repository and scroll down to the “GitHub Pages” section. Under “Source”, select the main branch and click “Save”:\n\n\n\n\nGitHub Pages settings\n\n\n\nAfter a few moments, your exhibit will be published and you can access it at the URL provided in the “GitHub Pages” section.\n\n\n\n\nDeploying exhibit\n\n\n\n\n\nExhibit URL\n\n\n\n\n\nExhibit homepage\n\n\nCongratulations! You have successfully published your digital exhibit using CollectionBuilder. Now, it’s time for some customization.",
+    "crumbs": [
+      "Workshop: Building a Digital Exhibit"
+    ]
+  },
+  {
+    "objectID": "index.html#step-9-customize-your-exhibit",
+    "href": "index.html#step-9-customize-your-exhibit",
+    "title": "Workshop: Building a Digital Exhibit",
+    "section": "Step 9: Customize your exhibit",
+    "text": "Step 9: Customize your exhibit\n\nMost of the customization options for CollectionBuilder are available in _data/theme.yml file. Let’s change some of the default settings to make our exhibit more personalized.\n\n##########\n# HOME PAGE\n#\n# featured image is used in home page banner and in meta markup to represent the collection\n# use either an objectid (from an item in this collect), a relative location of an image in this repo (ex. /assets/img/feature.jpg), or a full url to an image elsewhere\nfeatured-image: post_02 # WARNING: use the objectid, not the filename for this field\n\n# Select a theme from https://bootswatch.com/ and add the name of the theme here. The default is \"flatly\".\nbootswatch: spacelab\n\nMore complex customizations, such as changing the layout of the item pages or adding new features, will require editing the HTML and CSS files in the repository. But for now, you can explore the various options available in the _data/theme.yml file to further customize the look and feel of your exhibit.",
+    "crumbs": [
+      "Workshop: Building a Digital Exhibit"
+    ]
   }
 ]
