@@ -1,0 +1,66 @@
+---
+title: "Workshop: Building a Digital Exhibit"
+subtitle: "From Archives to the Web in 60 Minutes"
+---
+
+This tutorial will guide you through the process of publishing a digital exhibit using [CollectionBuilder](https://collectionbuilder.github.io/), a popular tool designed and maintained by librarians at the [University of Idaho](https://www.lib.uidaho.edu/).
+
+To achieve this, we will be using three main tools:
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.card}
+::: {.card-body .d-flex .flex-column}
+<div class="text-center" style="font-size: 3rem; color: #003660;">
+{{< fa table >}}
+</div>
+<p class="card-title-p text-center">Google Sheets</p>
+<p class="mt-auto align-self-center"><a href="https://docs.google.com/spreadsheets/d/1jqjPvWLZjwAfnwHS-pXwjslLgEnVdIOYjPXp1JAUNQA/edit?usp=sharing" class="btn btn-primary" target="_blank">Start Learning</a></p>
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.card}
+::: {.card-body .d-flex .flex-column}
+<div class="text-center" style="font-size: 3rem; color: #003660;">
+{{< fa brands github >}}
+</div>
+<p class="card-title-p text-center">GitHub</p>
+<p class="mt-auto align-self-center"><a href="https://github.com/" class="btn btn-primary"  target="_blank">Explore</a></p>
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.card}
+::: {.card-body .d-flex .flex-column}
+<div class="text-center" style="font-size: 3rem; color: #003660;">
+<i class="bi bi-braces-asterisk"></i>
+</div>
+<p class="card-title-p text-center">Collection Builder</p>
+<p class="mt-auto align-self-center"><a href="https://collectionbuilder.github.io/" class="btn btn-primary"  target="_blank">Get Started</a></p>
+:::
+:::
+:::
+
+:::
+---
+
+## Prerequisites
+
+To follow along with this tutorial, you will need:
+
+- Access to your UCSB Google account to use Google Sheets.
+- A GitHub account to manage your CollectionBuilder project.
+
+::: {.callout-warning}
+# 
+
+If you don't have a GitHub account, follow the [instructions for GitHub sign-up with your UCSB account](github_signup.qmd) or the 
+
+:::
+
+
+

@@ -1,0 +1,19 @@
+project:
+  type: website
+  output-dir: docs 
+
+website:
+  title: "Digital History Skills"
+  sidebar:
+    style: "floating"
+    search: true
+    contents:
+      - index.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-location: left
+    code-copy: true
+    css: main.css
