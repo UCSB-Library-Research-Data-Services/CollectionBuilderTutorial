@@ -41,6 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-09537c9ecba8558085948e1b802a414a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -123,6 +126,9 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#step-1-collect-your-materials" id="toc-step-1-collect-your-materials" class="nav-link" data-scroll-target="#step-1-collect-your-materials">Step 1: Collect your materials</a></li>
   <li><a href="#step-2-copy-the-google-sheets-template" id="toc-step-2-copy-the-google-sheets-template" class="nav-link" data-scroll-target="#step-2-copy-the-google-sheets-template">Step 2: Copy the Google Sheets template</a></li>
   <li><a href="#step-3-fill-in-the-metadata" id="toc-step-3-fill-in-the-metadata" class="nav-link" data-scroll-target="#step-3-fill-in-the-metadata">Step 3: Fill in the metadata</a></li>
+  <li><a href="#step-4-use-collectionbuilder-template-to-create-a-repository-on-github" id="toc-step-4-use-collectionbuilder-template-to-create-a-repository-on-github" class="nav-link" data-scroll-target="#step-4-use-collectionbuilder-template-to-create-a-repository-on-github">Step 4: Use CollectionBuilder template to create a repository on GitHub</a></li>
+  <li><a href="#step-5-upload-your-media-files-to-github" id="toc-step-5-upload-your-media-files-to-github" class="nav-link" data-scroll-target="#step-5-upload-your-media-files-to-github">Step 5: Upload your media files to GitHub</a></li>
+  <li><a href="#step-6-upload-your-metadata-csv-file-to-_data-folder" id="toc-step-6-upload-your-metadata-csv-file-to-_data-folder" class="nav-link" data-scroll-target="#step-6-upload-your-metadata-csv-file-to-_data-folder">Step 6: Upload your metadata CSV file to <code>_data</code> folder</a></li>
   </ul>
 </nav>
 </nav>
@@ -296,6 +302,124 @@ Warning
 </tbody>
 </table>
 <p>Not all fields are mandatory, but we recommend filling out as many as possible to enhance the discoverability and richness of your exhibit. The <code>objectid</code>, <code>format</code>, and <code>filename</code> fields are essential for linking your metadata to the corresponding media files.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Save your metadata
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>CollectionBuilder requires that you save your Google Sheets metadata as a CSV file. To do this, go to <code>File</code> &gt; <code>Download</code> &gt; <code>Comma-separated values (.csv, current sheet)</code> in the Google Sheets menu. Save the CSV file to a location on your computer and name it as <code>metadata.csv</code>.</p>
+<p>Don’t open the CSV file in Excel or any other spreadsheet software, as this can alter the formatting and cause issues when uploading to CollectionBuilder.</p>
+</div>
+</div>
+</section>
+<section id="step-4-use-collectionbuilder-template-to-create-a-repository-on-github" class="level2">
+<h2 class="anchored" data-anchor-id="step-4-use-collectionbuilder-template-to-create-a-repository-on-github">Step 4: Use CollectionBuilder template to create a repository on GitHub</h2>
+<ul>
+<li>Go to <a href="https://collectionbuilder.github.io/">CollectionBuilder website</a> and choose the “GitHub Pages” template:</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="_static/templates.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="CollectionBuilder GitHub Pages Templates"><img src="_static/templates.png" class="img-fluid figure-img" alt="CollectionBuilder GitHub Pages Templates"></a></p>
+<figcaption>CollectionBuilder GitHub Pages Templates</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="_static/gotoTemplate.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Go to GitHub Pages template"><img src="_static/gotoTemplate.png" class="img-fluid figure-img" width="400" alt="Go to GitHub Pages template"></a></p>
+<figcaption>Go to GitHub Pages template</figcaption>
+</figure>
+</div>
+<ul>
+<li>Create a new repository by clicking on the “Use this template” button. Then, select “Create a new repository”:</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="_static/createRepo.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Create a new repository"><img src="_static/createRepo.png" class="img-fluid figure-img" alt="Create a new repository"></a></p>
+<figcaption>Create a new repository</figcaption>
+</figure>
+</div>
+<ul>
+<li>Fill in the repository name (e.g., <code>postcard-exhibit</code>) and add a short description for the repository (e.g., <code>A digital exhibit showcasing vintage postcards from around the world.</code>). Make sure to set the repository to “Public”.</li>
+<li>Click on “Create repository” to start creating the repository.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="_static/createRepository.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Create repository form"><img src="_static/createRepository.png" class="img-fluid figure-img" width="600" alt="Create repository form"></a></p>
+<figcaption>Create repository form</figcaption>
+</figure>
+</div>
+<p>It’s going to take a few seconds…</p>
+</section>
+<section id="step-5-upload-your-media-files-to-github" class="level2">
+<h2 class="anchored" data-anchor-id="step-5-upload-your-media-files-to-github">Step 5: Upload your media files to GitHub</h2>
+<ul>
+<li>Type <code>.</code> in the root of your repository to launch a web-based code editor.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="_static/vscode_permit.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Open GitHub code editor"><img src="_static/vscode_permit.png" class="img-fluid figure-img" alt="Open GitHub code editor"></a></p>
+<figcaption>Open GitHub code editor</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="_static/vscode_grantpermit.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Grant permission to open code editor"><img src="_static/vscode_grantpermit.png" class="img-fluid figure-img" width="600" alt="Grant permission to open code editor"></a></p>
+<figcaption>Grant permission to open code editor</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="_static/vscode.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="GitHub code editor"><img src="_static/vscode.png" class="img-fluid figure-img" alt="GitHub code editor"></a></p>
+<figcaption>GitHub code editor</figcaption>
+</figure>
+</div>
+<ul>
+<li>Delete the existing media files in the <code>objects</code> folder (do not remove the <code>README.md</code> file):</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="_static/deleteMedia.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="Delete existing media files"><img src="_static/deleteMedia.png" class="img-fluid figure-img" width="400" alt="Delete existing media files"></a></p>
+<figcaption>Delete existing media files</figcaption>
+</figure>
+</div>
+<ul>
+<li>Right-click on the <code>objects</code> folder and select “Upload”:</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="_static/uploadMedia.png" class="lightbox" data-gallery="quarto-lightbox-gallery-9" title="Upload media files"><img src="_static/uploadMedia.png" class="img-fluid figure-img" width="400" alt="Upload media files"></a></p>
+<figcaption>Upload media files</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="_static/selectMedia.png" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="Select media files"><img src="_static/selectMedia.png" class="img-fluid figure-img" width="400" alt="Select media files"></a></p>
+<figcaption>Select media files</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="_static/uploadMedia2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-11" title="Upload media files to GitHub"><img src="_static/uploadMedia2.png" class="img-fluid figure-img" width="600" alt="Upload media files to GitHub"></a></p>
+<figcaption>Upload media files to GitHub</figcaption>
+</figure>
+</div>
+</section>
+<section id="step-6-upload-your-metadata-csv-file-to-_data-folder" class="level2">
+<h2 class="anchored" data-anchor-id="step-6-upload-your-metadata-csv-file-to-_data-folder">Step 6: Upload your metadata CSV file to <code>_data</code> folder</h2>
+<ul>
+<li>Upload your <code>metadata.csv</code> file to the <code>_data</code> folder:</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="_static/uploadMetadata.png" class="lightbox" data-gallery="quarto-lightbox-gallery-12" title="Upload metadata CSV file"><img src="_static/uploadMetadata.png" class="img-fluid figure-img" width="400" alt="Upload metadata CSV file"></a></p>
+<figcaption>Upload metadata CSV file</figcaption>
+</figure>
+</div>
 
 
 </section>
@@ -719,6 +843,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

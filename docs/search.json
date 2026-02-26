@@ -44,7 +44,37 @@
     "href": "index.html#step-3-fill-in-the-metadata",
     "title": "Workshop: Building a Digital Exhibit",
     "section": "Step 3: Fill in the metadata",
-    "text": "Step 3: Fill in the metadata\n\nCreate the metadata for your exhibit by filling in the Google Sheets template. Each row in the spreadsheet represents an item in your collection, and each column corresponds to a specific metadata field. Some of the key columns you will need to fill out include:\n\n\n\n\nColumn Name\nDescription\n\n\n\n\nobjectid\nA unique identifier for each item (e.g., postcard1, postcard2).\n\n\nformat\nMIME Type format of the object; e.g., ‘image/jpg’, ‘image/png’, ‘application/pdf’\n\n\nfilename\nThe name of the file associated with the item (e.g., postcard1.jpg).\n\n\ntitle\nThe title of the item (e.g., Eiffel Tower Postcard).\n\n\ndescription\nA brief description of the item (e.g., A vintage postcard featuring the Eiffel Tower in Paris, France.).\n\n\ndate\nThe date associated with the item (e.g., 1920s).\n\n\nsubject\nA list of keywords or subjects related to the item, separated by semicolons (e.g., landmark; Paris; vintage).\n\n\nlocation\nThe location associated with the item (e.g., Paris, France).\n\n\nlatitude\nThe latitude coordinate of the item’s location (e.g., 48.8584).\n\n\nlongitude\nThe longitude coordinate of the item’s location (e.g., 2.2945).\n\n\nlanguage\nThe language of the item’s description (e.g., en).\n\n\n\nNot all fields are mandatory, but we recommend filling out as many as possible to enhance the discoverability and richness of your exhibit. The objectid, format, and filename fields are essential for linking your metadata to the corresponding media files.",
+    "text": "Step 3: Fill in the metadata\n\nCreate the metadata for your exhibit by filling in the Google Sheets template. Each row in the spreadsheet represents an item in your collection, and each column corresponds to a specific metadata field. Some of the key columns you will need to fill out include:\n\n\n\n\nColumn Name\nDescription\n\n\n\n\nobjectid\nA unique identifier for each item (e.g., postcard1, postcard2).\n\n\nformat\nMIME Type format of the object; e.g., ‘image/jpg’, ‘image/png’, ‘application/pdf’\n\n\nfilename\nThe name of the file associated with the item (e.g., postcard1.jpg).\n\n\ntitle\nThe title of the item (e.g., Eiffel Tower Postcard).\n\n\ndescription\nA brief description of the item (e.g., A vintage postcard featuring the Eiffel Tower in Paris, France.).\n\n\ndate\nThe date associated with the item (e.g., 1920s).\n\n\nsubject\nA list of keywords or subjects related to the item, separated by semicolons (e.g., landmark; Paris; vintage).\n\n\nlocation\nThe location associated with the item (e.g., Paris, France).\n\n\nlatitude\nThe latitude coordinate of the item’s location (e.g., 48.8584).\n\n\nlongitude\nThe longitude coordinate of the item’s location (e.g., 2.2945).\n\n\nlanguage\nThe language of the item’s description (e.g., en).\n\n\n\nNot all fields are mandatory, but we recommend filling out as many as possible to enhance the discoverability and richness of your exhibit. The objectid, format, and filename fields are essential for linking your metadata to the corresponding media files.\n\n\n\n\n\n\nSave your metadata\n\n\n\nCollectionBuilder requires that you save your Google Sheets metadata as a CSV file. To do this, go to File &gt; Download &gt; Comma-separated values (.csv, current sheet) in the Google Sheets menu. Save the CSV file to a location on your computer and name it as metadata.csv.\nDon’t open the CSV file in Excel or any other spreadsheet software, as this can alter the formatting and cause issues when uploading to CollectionBuilder.",
+    "crumbs": [
+      "Workshop: Building a Digital Exhibit"
+    ]
+  },
+  {
+    "objectID": "index.html#step-4-use-collectionbuilder-template-to-create-a-repository-on-github",
+    "href": "index.html#step-4-use-collectionbuilder-template-to-create-a-repository-on-github",
+    "title": "Workshop: Building a Digital Exhibit",
+    "section": "Step 4: Use CollectionBuilder template to create a repository on GitHub",
+    "text": "Step 4: Use CollectionBuilder template to create a repository on GitHub\n\nGo to CollectionBuilder website and choose the “GitHub Pages” template:\n\n\n\n\nCollectionBuilder GitHub Pages Templates\n\n\n\n\n\nGo to GitHub Pages template\n\n\n\nCreate a new repository by clicking on the “Use this template” button. Then, select “Create a new repository”:\n\n\n\n\nCreate a new repository\n\n\n\nFill in the repository name (e.g., postcard-exhibit) and add a short description for the repository (e.g., A digital exhibit showcasing vintage postcards from around the world.). Make sure to set the repository to “Public”.\nClick on “Create repository” to start creating the repository.\n\n\n\n\nCreate repository form\n\n\nIt’s going to take a few seconds…",
+    "crumbs": [
+      "Workshop: Building a Digital Exhibit"
+    ]
+  },
+  {
+    "objectID": "index.html#step-5-upload-your-media-files-to-github",
+    "href": "index.html#step-5-upload-your-media-files-to-github",
+    "title": "Workshop: Building a Digital Exhibit",
+    "section": "Step 5: Upload your media files to GitHub",
+    "text": "Step 5: Upload your media files to GitHub\n\nType . in the root of your repository to launch a web-based code editor.\n\n\n\n\nOpen GitHub code editor\n\n\n\n\n\nGrant permission to open code editor\n\n\n\n\n\nGitHub code editor\n\n\n\nDelete the existing media files in the objects folder (do not remove the README.md file):\n\n\n\n\nDelete existing media files\n\n\n\nRight-click on the objects folder and select “Upload”:\n\n\n\n\nUpload media files\n\n\n\n\n\nSelect media files\n\n\n\n\n\nUpload media files to GitHub",
+    "crumbs": [
+      "Workshop: Building a Digital Exhibit"
+    ]
+  },
+  {
+    "objectID": "index.html#step-6-upload-your-metadata-csv-file-to-_data-folder",
+    "href": "index.html#step-6-upload-your-metadata-csv-file-to-_data-folder",
+    "title": "Workshop: Building a Digital Exhibit",
+    "section": "Step 6: Upload your metadata CSV file to _data folder",
+    "text": "Step 6: Upload your metadata CSV file to _data folder\n\nUpload your metadata.csv file to the _data folder:\n\n\n\n\nUpload metadata CSV file",
     "crumbs": [
       "Workshop: Building a Digital Exhibit"
     ]
