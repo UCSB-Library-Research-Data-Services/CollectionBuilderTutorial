@@ -61,7 +61,36 @@ To follow along with this tutorial, you will need:
 If you don't have a GitHub account, go to [GitHub's Sign-Up Page](https://github.com/signup) and create one using yout UCSB or any Google account. It's free and only takes a few minutes!
 :::
 
-## Step 1: Download the images
+## Step 1: Collect your materials
+
+You can start by gathering some materials for your digital exhibit. For this tutorial, we will be using a small collection of vintage postcards from a private collection. These postcards feature various landmarks and scenes from around the world, and they will serve as the primary content for our exhibit.
 
 To get started, download the images for this tutorial from [postcards.zip](objects/postcards.zip). Unzip the file and save the images to a folder on your computer where you can easily access them later.
+
+## Step 2: Copy the Google Sheets template
+
+- You can use this template to start creating your metadata: [CollectionBuilder Metadata Template](https://docs.google.com/spreadsheets/d/1XUaY0MpVYpBd0QMcF96Vtx-e3Lue_a2TVkHGX7f57i8/edit?usp=sharing).
+- Make a copy of the template by clicking on `File` > `Make a copy` in the Google Sheets menu. This will create a new spreadsheet in your Google Drive that you can edit and customize for your exhibit.
+
+## Step 3: Fill in the metadata
+
+- Create the metadata for your exhibit by filling in the Google Sheets template. Each row in the spreadsheet represents an item in your collection, and each column corresponds to a specific metadata field. Some of the key columns you will need to fill out include:
+
+| Column Name | Description |
+|-------------|-------------|
+| `objectid` | A unique identifier for each item (e.g., `postcard1`, `postcard2`). |
+| `format` | [MIME Type](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/MIME_types/Common_types) format of the object; e.g., 'image/jpg', 'image/png', 'application/pdf' |
+| `filename` | The name of the file associated with the item (e.g., `postcard1.jpg`). |
+| `title` | The title of the item (e.g., `Eiffel Tower Postcard`). |
+| `description` | A brief description of the item (e.g., `A vintage postcard featuring the Eiffel Tower in Paris, France.`). |
+| `date` | The date associated with the item (e.g., `1920s`). |
+| `subject` | A list of keywords or subjects related to the item, separated by semicolons (e.g., `landmark; Paris; vintage`). |
+| `location` | The location associated with the item (e.g., `Paris, France`). |
+| `latitude` | The latitude coordinate of the item's location (e.g., `48.8584`). |
+| `longitude` | The longitude coordinate of the item's location (e.g., `2.2945`). |
+| `language` | The language of the item's description (e.g., `en`). |
+
+Not all fields are mandatory, but we recommend filling out as many as possible to enhance the discoverability and richness of your exhibit. The `objectid`, `format`, and `filename` fields are essential for linking your metadata to the corresponding media files.
+
+
 
