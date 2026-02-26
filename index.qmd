@@ -58,9 +58,10 @@ To follow along with this tutorial, you will need:
 ::: {.callout-warning}
 # 
 
-If you don't have a GitHub account, follow the [instructions for GitHub sign-up with your UCSB account](github_signup.qmd) or the 
-
+If you don't have a GitHub account, go to [GitHub's Sign-Up Page](https://github.com/signup) and create one using yout UCSB or any Google account. It's free and only takes a few minutes!
 :::
 
+## Step 1: Download the images
 
+To get started, download the images for this tutorial from [postcards.zip](objects/postcards.zip). Unzip the file and save the images to a folder on your computer where you can easily access them later.
 
