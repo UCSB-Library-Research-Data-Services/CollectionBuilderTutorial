@@ -20,11 +20,31 @@
     ]
   },
   {
-    "objectID": "index.html#step-1-download-the-images",
-    "href": "index.html#step-1-download-the-images",
+    "objectID": "index.html#step-1-collect-your-materials",
+    "href": "index.html#step-1-collect-your-materials",
     "title": "Workshop: Building a Digital Exhibit",
-    "section": "Step 1: Download the images",
-    "text": "Step 1: Download the images\nTo get started, download the images for this tutorial from postcards.zip. Unzip the file and save the images to a folder on your computer where you can easily access them later.",
+    "section": "Step 1: Collect your materials",
+    "text": "Step 1: Collect your materials\nYou can start by gathering some materials for your digital exhibit. For this tutorial, we will be using a small collection of vintage postcards from a private collection. These postcards feature various landmarks and scenes from around the world, and they will serve as the primary content for our exhibit.\nTo get started, download the images for this tutorial from postcards.zip. Unzip the file and save the images to a folder on your computer where you can easily access them later.",
+    "crumbs": [
+      "Workshop: Building a Digital Exhibit"
+    ]
+  },
+  {
+    "objectID": "index.html#step-2-copy-the-google-sheets-template",
+    "href": "index.html#step-2-copy-the-google-sheets-template",
+    "title": "Workshop: Building a Digital Exhibit",
+    "section": "Step 2: Copy the Google Sheets template",
+    "text": "Step 2: Copy the Google Sheets template\n\nYou can use this template to start creating your metadata: CollectionBuilder Metadata Template.\nMake a copy of the template by clicking on File &gt; Make a copy in the Google Sheets menu. This will create a new spreadsheet in your Google Drive that you can edit and customize for your exhibit.",
+    "crumbs": [
+      "Workshop: Building a Digital Exhibit"
+    ]
+  },
+  {
+    "objectID": "index.html#step-3-fill-in-the-metadata",
+    "href": "index.html#step-3-fill-in-the-metadata",
+    "title": "Workshop: Building a Digital Exhibit",
+    "section": "Step 3: Fill in the metadata",
+    "text": "Step 3: Fill in the metadata\n\nCreate the metadata for your exhibit by filling in the Google Sheets template. Each row in the spreadsheet represents an item in your collection, and each column corresponds to a specific metadata field. Some of the key columns you will need to fill out include:\n\n\n\n\nColumn Name\nDescription\n\n\n\n\nobjectid\nA unique identifier for each item (e.g., postcard1, postcard2).\n\n\nformat\nMIME Type format of the object; e.g., ‘image/jpg’, ‘image/png’, ‘application/pdf’\n\n\nfilename\nThe name of the file associated with the item (e.g., postcard1.jpg).\n\n\ntitle\nThe title of the item (e.g., Eiffel Tower Postcard).\n\n\ndescription\nA brief description of the item (e.g., A vintage postcard featuring the Eiffel Tower in Paris, France.).\n\n\ndate\nThe date associated with the item (e.g., 1920s).\n\n\nsubject\nA list of keywords or subjects related to the item, separated by semicolons (e.g., landmark; Paris; vintage).\n\n\nlocation\nThe location associated with the item (e.g., Paris, France).\n\n\nlatitude\nThe latitude coordinate of the item’s location (e.g., 48.8584).\n\n\nlongitude\nThe longitude coordinate of the item’s location (e.g., 2.2945).\n\n\nlanguage\nThe language of the item’s description (e.g., en).\n\n\n\nNot all fields are mandatory, but we recommend filling out as many as possible to enhance the discoverability and richness of your exhibit. The objectid, format, and filename fields are essential for linking your metadata to the corresponding media files.",
     "crumbs": [
       "Workshop: Building a Digital Exhibit"
     ]
