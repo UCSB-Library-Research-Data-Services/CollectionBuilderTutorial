@@ -1,6 +1,7 @@
 ---
 title: "Workshop: Building a Digital Exhibit"
 subtitle: "From Archives to the Web in 60 Minutes"
+lightbox: true
 ---
 
 This tutorial will guide you through the process of publishing a digital exhibit using [CollectionBuilder](https://collectionbuilder.github.io/), a popular tool designed and maintained by librarians at the [University of Idaho](https://www.lib.uidaho.edu/).
@@ -92,5 +93,57 @@ To get started, download the images for this tutorial from [postcards.zip](objec
 
 Not all fields are mandatory, but we recommend filling out as many as possible to enhance the discoverability and richness of your exhibit. The `objectid`, `format`, and `filename` fields are essential for linking your metadata to the corresponding media files.
 
+::: {.callout-warning}
+# Save your metadata
 
+CollectionBuilder requires that you save your Google Sheets metadata as a CSV file. To do this, go to `File` > `Download` > `Comma-separated values (.csv, current sheet)` in the Google Sheets menu. Save the CSV file to a location on your computer and name it as `metadata.csv`.
 
+Don't open the CSV file in Excel or any other spreadsheet software, as this can alter the formatting and cause issues when uploading to CollectionBuilder.
+:::
+
+## Step 4: Use CollectionBuilder template to create a repository on GitHub
+
+- Go to [CollectionBuilder website](https://collectionbuilder.github.io/) and choose the "GitHub Pages" template:
+
+![CollectionBuilder GitHub Pages Templates](_static/templates.png)
+
+![Go to GitHub Pages template](_static/gotoTemplate.png){width="400"}
+
+- Create a new repository by clicking on the "Use this template" button. Then, select "Create a new repository":
+
+![Create a new repository](_static/createRepo.png)
+
+- Fill in the repository name (e.g., `postcard-exhibit`) and add a short description for the repository (e.g., `A digital exhibit showcasing vintage postcards from around the world.`). Make sure to set the repository to "Public". 
+- Click on "Create repository" to start creating the repository.
+
+![Create repository form](_static/createRepository.png){width="600"}
+
+It's going to take a few seconds...
+
+## Step 5: Upload your media files to GitHub
+
+- Type `.` in the root of your repository to launch a web-based code editor. 
+
+![Open GitHub code editor](_static/vscode_permit.png)
+
+![Grant permission to open code editor](_static/vscode_grantpermit.png){width="600"}
+
+![GitHub code editor](_static/vscode.png)
+
+- Delete the existing media files in the `objects` folder (do not remove the `README.md` file):
+
+![Delete existing media files](_static/deleteMedia.png){width="400"}
+
+- Right-click on the `objects` folder and select "Upload":
+
+![Upload media files](_static/uploadMedia.png){width="400"}
+
+![Select media files](_static/selectMedia.png){width="400"}
+
+![Upload media files to GitHub](_static/uploadMedia2.png){width="600"}
+
+## Step 6: Upload your metadata CSV file to `_data` folder
+
+- Upload your `metadata.csv` file to the `_data` folder:
+
+![Upload metadata CSV file](_static/uploadMetadata.png){width="400"}
