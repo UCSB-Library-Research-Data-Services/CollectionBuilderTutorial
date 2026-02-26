@@ -1,0 +1,29 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Workshop: Building a Digital Exhibit",
+    "section": "",
+    "text": "This tutorial will guide you through the process of publishing a digital exhibit using CollectionBuilder, a popular tool designed and maintained by librarians at the University of Idaho.\nTo achieve this, we will be using three main tools:",
+    "crumbs": [
+      "Workshop: Building a Digital Exhibit"
+    ]
+  },
+  {
+    "objectID": "index.html#prerequisites",
+    "href": "index.html#prerequisites",
+    "title": "Workshop: Building a Digital Exhibit",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nTo follow along with this tutorial, you will need:\n\nAccess to your UCSB Google account to use Google Sheets.\nA GitHub account to manage your CollectionBuilder project.\n\n\n\n\n\n\n\nWarning\n\n\n\nIf you don’t have a GitHub account, follow the instructions for GitHub sign-up with your UCSB account or the",
+    "crumbs": [
+      "Workshop: Building a Digital Exhibit"
+    ]
+  },
+  {
+    "objectID": "github_signup.html",
+    "href": "github_signup.html",
+    "title": "Digital History Skills",
+    "section": "",
+    "text": "Return"
+  }
+]
