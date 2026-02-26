@@ -146,15 +146,15 @@ It's going to take a few seconds...
 
 - Upload your `metadata.csv` file to the `_data` folder:
 
-![Upload metadata CSV file](_static/uploadMetadata.png){width="600"}
+![Upload metadata CSV file](_static/uploadMetadata.png){width="400"}
 
 - Add and commit your changes to the repository:
 
-![Stage changes](_static/satageChanges.png){width="600"}
+![Stage changes](_static/satageChanges.png){width="400"}
 
-![Add a commit message](_static/commitMessage.png){width="600"}
+![Add a commit message](_static/commitMessage.png){width="400"}
 
-![Commit changes](_static/commitChanges.png){width="600"}
+![Commit changes](_static/commitChanges.png){width="400"}
 
 ## Step 7: Configure CollectionBuilder
 
