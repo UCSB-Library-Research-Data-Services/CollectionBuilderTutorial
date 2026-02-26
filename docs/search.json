@@ -74,7 +74,17 @@
     "href": "index.html#step-6-upload-your-metadata-csv-file-to-_data-folder",
     "title": "Workshop: Building a Digital Exhibit",
     "section": "Step 6: Upload your metadata CSV file to _data folder",
-    "text": "Step 6: Upload your metadata CSV file to _data folder\n\nUpload your metadata.csv file to the _data folder:\n\n\n\n\nUpload metadata CSV file",
+    "text": "Step 6: Upload your metadata CSV file to _data folder\n\nUpload your metadata.csv file to the _data folder:\n\n\n\n\nUpload metadata CSV file\n\n\n\nAdd and commit your changes to the repository:\n\n\n\n\nStage changes\n\n\n\n\n\nAdd a commit message\n\n\n\n\n\nCommit changes",
+    "crumbs": [
+      "Workshop: Building a Digital Exhibit"
+    ]
+  },
+  {
+    "objectID": "index.html#step-7-configure-collectionbuilder",
+    "href": "index.html#step-7-configure-collectionbuilder",
+    "title": "Workshop: Building a Digital Exhibit",
+    "section": "Step 7: Configure CollectionBuilder",
+    "text": "Step 7: Configure CollectionBuilder\n\nGo to _config.yml file in the root of your repository and edit the following lines:\n\n##########\n# SITE SETTINGS\n#\n# title of site appears in banner\ntitle: Frankfurt Postcards\n# tagline, a short phrase that will appear throughout the site in the top banner\ntagline: a small exhibit of vintage postcards\n# description appears in meta tags and other locations\n# this description might appear in search result lists, keep around 160 characters max\ndescription: \"A digital exhibit showcasing vintage postcards from around the world.\"\n# creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name\nauthor: Jairo Melo\n\n##########\n# COLLECTION SETTINGS\n#\n# Change the file name from 'demo-metadata' to 'metadata' (without the .csv extension)\nmetadata: metadata\n\nStage, commit, and push your changes to GitHub to update the repository.",
     "crumbs": [
       "Workshop: Building a Digital Exhibit"
     ]
