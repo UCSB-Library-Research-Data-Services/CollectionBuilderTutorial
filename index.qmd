@@ -40,7 +40,7 @@ To achieve this, we will be using three main tools:
 <div class="text-center" style="font-size: 3rem; color: #003660;">
 <i class="bi bi-braces-asterisk"></i>
 </div>
-<p class="card-title-p text-center">Collection Builder</p>
+<p class="card-title-p text-center">CollectionBuilder</p>
 <p class="mt-auto align-self-center"><a href="https://collectionbuilder.github.io/" class="btn btn-primary"  target="_blank">Get Started</a></p>
 :::
 :::
@@ -59,7 +59,7 @@ To follow along with this tutorial, you will need:
 ::: {.callout-warning}
 # 
 
-If you don't have a GitHub account, go to [GitHub's Sign-Up Page](https://github.com/signup) and create one using yout UCSB or any Google account. It's free and only takes a few minutes!
+If you don't have a GitHub account, go to [GitHub's Sign-Up Page](https://github.com/signup) and create one using your UCSB or any Google account. It's free and only takes a few minutes!
 :::
 
 ## Step 1: Collect your materials
