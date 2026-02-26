@@ -17,7 +17,7 @@ To achieve this, we will be using three main tools:
 {{< fa table >}}
 </div>
 <p class="card-title-p text-center">Google Sheets</p>
-<p class="mt-auto align-self-center"><a href="https://docs.google.com/spreadsheets/d/1jqjPvWLZjwAfnwHS-pXwjslLgEnVdIOYjPXp1JAUNQA/edit?usp=sharing" class="btn btn-primary" target="_blank">Start Learning</a></p>
+<p class="mt-auto align-self-center"><a href="https://docs.google.com/spreadsheets/d/1XUaY0MpVYpBd0QMcF96Vtx-e3Lue_a2TVkHGX7f57i8/edit?usp=sharing" class="btn btn-primary" target="_blank">Start Learning</a></p>
 :::
 :::
 :::
